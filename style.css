@@ -16,3 +16,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+button {
+    cursor: pointer;
+    outline: none;
+    height: 55px;
+    font-size: 18px;
+    font-family: monospace, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    font-weight: 600;
+    border-radius: 60px;
+    padding: 15px 45px;
+    transition: 200ms;
+}
+button:hover {
+    filter: brightness(95%);
+}
+button:active {
+    transform: scale(0.98);
+}
+button:disabled {
+    cursor: default;
+    filter: brightness(30%);
+}
