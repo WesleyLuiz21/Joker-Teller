@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0;
-    background: linear-gradient(230.54deg, #F52A2A 3.07%, #491BA9 76.29%);
+    background: linear-gradient(230.54deg, #d64545 3.07%, #6b47b9 76.29%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,7 +31,7 @@ button {
     transition: 200ms;
 }
 button:hover {
-    filter: brightness(95%);
+    color: rgb(167, 36, 149);
 }
 button:active {
     transform: scale(0.98);
