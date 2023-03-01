@@ -15,6 +15,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url('./assets/bot.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 button {
     cursor: pointer;
